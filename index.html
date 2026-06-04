@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gao Lab SAR Studio</title>
+<title>PharmDigit SAR Studio</title>
 <script src="https://unpkg.com/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
@@ -201,7 +201,7 @@ tr:hover td{background:#f8fafc}
 
 <!-- HEADER -->
 <header class="app-header">
-  <div class="brand">Gao Lab<span> SAR Studio</span></div>
+  <div class="brand">PharmDigit<span> SAR Studio</span></div>
   <span class="header-pill">Structure–Activity Relationship Engine v2</span>
   <div class="header-right">
     <button class="hbtn" id="hbtn-sample">⚗ Sample Data</button>
@@ -1267,7 +1267,7 @@ document.getElementById('hbtn-pdf').addEventListener('click', async ()=>{
     doc.setFillColor(30,58,95);
     doc.rect(0,0,W,12,'F');
     doc.setFont('helvetica','bold'); doc.setFontSize(10); doc.setTextColor(255,255,255);
-    doc.text('Gao Lab SAR Studio',ML,8.5);
+    doc.text('PharmDigit SAR Studio',ML,8.5);
     doc.setFont('helvetica','normal'); doc.setFontSize(8);
     doc.text(title,ML+54,8.5);
     doc.setTextColor(180,200,220);
@@ -1360,7 +1360,7 @@ document.getElementById('hbtn-pdf').addEventListener('click', async ()=>{
   doc.rect(0,32,W,8,'F');
 
   doc.setFont('helvetica','bold'); doc.setFontSize(22); doc.setTextColor(255,255,255);
-  doc.text('Gao Lab SAR Studio',ML,16);
+  doc.text('PharmDigit SAR Studio',ML,16);
   doc.setFont('helvetica','normal'); doc.setFontSize(10); doc.setTextColor(180,210,240);
   doc.text('Structure–Activity Relationship Analysis Report',ML,24);
   doc.setFontSize(8.5); doc.setTextColor(200,220,240);
@@ -1743,7 +1743,7 @@ document.getElementById('hbtn-pdf').addEventListener('click', async ()=>{
     doc.setFillColor(248,250,252); doc.rect(0,H-6,W,6,'F');
     doc.setDrawColor(226,232,240); doc.setLineWidth(0.2); doc.line(0,H-6,W,H-6);
     doc.setFont('helvetica','normal'); doc.setFontSize(7); doc.setTextColor(148,163,184);
-    doc.text(`Gao Lab SAR Studio  |  Confidential Research Use Only  |  ${new Date().toLocaleDateString()}`,ML,H-2);
+    doc.text(`PharmDigit SAR Studio  |  Confidential Research Use Only  |  ${new Date().toLocaleDateString()}`,ML,H-2);
     doc.text(`Page ${i} of ${pageCount}`,W-MR,H-2,{align:'right'});
   }
 
